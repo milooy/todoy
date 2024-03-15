@@ -1,9 +1,9 @@
-import DeployButton from "../components/DeployButton";
-import AuthButton from "../components/AuthButton";
-import { createClient } from "@/utils/supabase/server";
-import ConnectSupabaseSteps from "@/components/tutorial/ConnectSupabaseSteps";
-import SignUpUserSteps from "@/components/tutorial/SignUpUserSteps";
-import Header from "@/components/Header";
+import DeployButton from '../components/DeployButton';
+import AuthButton from '../components/AuthButton';
+import { createClient } from '@/utils/supabase/server';
+import ConnectSupabaseSteps from '@/components/tutorial/ConnectSupabaseSteps';
+import SignUpUserSteps from '@/components/tutorial/SignUpUserSteps';
+import Header from '@/components/Header';
 
 export default async function Index() {
   const canInitSupabaseClient = () => {
@@ -38,7 +38,7 @@ export default async function Index() {
 
       <footer className="w-full border-t border-t-foreground/10 p-8 flex justify-center text-center text-xs">
         <p>
-          Powered by{" "}
+          Powered by{' '}
           <a
             href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
             target="_blank"
