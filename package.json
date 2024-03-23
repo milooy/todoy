@@ -6,11 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.10",
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
     "@tanstack/react-query": "^5.28.2",
     "@tanstack/react-query-devtools": "^5.28.3",
     "autoprefixer": "10.4.17",
+    "framer-motion": "^11.0.14",
     "geist": "^1.2.1",
     "next": "latest",
     "postcss": "8.4.33",

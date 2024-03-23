@@ -20,7 +20,6 @@ export default async function Daily() {
 
   return (
     <>
-      <h1>Daily</h1>
       <DailyPage />
     </>
   );
